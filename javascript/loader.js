@@ -27,7 +27,7 @@ switch (collectionInfo.background.type) {
 document.getElementById("lbuy").innerText = collectionInfo.title.replace("{name}", collectionInfo.name);
 document.getElementById("lsupply").innerText = `Total supply: ${mintInfo.totalSupply.toLocaleString()} NFTs`;
 document.getElementById("lprice").innerText = `${mintInfo.price.toFixed(2)}`;
-document.getElementById("ldate").innerText = `9901/10000 Minted (98.6% SOLDOUT)`;
+document.getElementById("ldate").innerText = `3286/3333 Minted (98.6% SOLDOUT)`;
 
 document.getElementById("lnprice").innerText = `${mintInfo.minUnits}`
 document.getElementById("ape-max").innerText = `${mintInfo.maxUnits} Max`
